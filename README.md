@@ -10,8 +10,8 @@ One of the common solutions to random lagspikes in VRChat is to clear your cache
 **Generally speaking, you should only use VRCCacheNuker if:**
 - You wish to reduce random lagspikes from cache indexing.
 - You wish to partly reduce memory usage (this may not have a significant impact, I have yet to formally research it).
-- You wish to regularly clean your cache without the need to remember to do so.
-...But...
+- You wish to regularly clean your cache without the need to remember to do so.<br/>
+...But...<br/>
 - You are able to deal with heightened network usage, as after every session you must redownload all content you encounter (for lack of a cache). This will not affect ongoing sessions, only new sessions.
 - You are able to deal with increased disk activity after play sessions.
 
