@@ -39,7 +39,7 @@ namespace VRCCacheNuker {
 		}
 
 		/// <summary>
-		/// Notifies the user that the cache is being deleted after this session.
+		/// Grabs the cache folder on startup and stores it in <see cref="CacheRoot"/>
 		/// </summary>
 		public override void OnApplicationStart() {
 			LocalConfig cfg = new LocalConfig(Path.Combine(Application.persistentDataPath, "config.json"));
@@ -52,7 +52,7 @@ namespace VRCCacheNuker {
 		}
 
 		/// <summary>
-		/// Post a message to the console to let people know that it's gonna look like VRC crashed.
+		/// Post a message to the console to let people know what's going on.
 		/// </summary>
 		public override void OnApplicationQuit() {
 			if (!MelonPreferences.GetEntryValue<bool>(KEY_CN_CAT, KEY_CLEAR_DL_CACHE)) {
