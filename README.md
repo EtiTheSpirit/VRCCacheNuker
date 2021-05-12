@@ -6,7 +6,7 @@ First off, this was created with the help of:
 - [Eti (Xan)](https://github.com/EtiTheSpirit) for initial concept and design.
 - [Davi](https://github.com/d-mageek) for tracking down how VRC does this on its own.
 
-For the time being, a manual deletion must be performed by the code rather than using VRC's cache clearing system. Due to unknown reasons, an inconsistency has arisen that causes VRC's native method of scheduling cache deletion to completely fail. The issue is not stably reproducible (the method worked a few times at first for Davi then completely failed after a few tries despite no changes being made, and never worked for me at all).
+For the time being, a deletion must be performed by the mod code rather than using VRC's cache clearing system. Due to unknown reasons, an inconsistency has arisen that causes VRC's native method of scheduling cache deletion to completely fail. The issue is not stably reproducible (the method worked a few times at first for Davi then completely failed after a few tries despite no changes being made, and never worked for me at all).
 
 ## Usage Warning
 Modding VRChat is a direct violation of VRC's Terms of Service. Usage of mods can lead to complete account termination. Use discretion when choosing mods, and understand the risks.
